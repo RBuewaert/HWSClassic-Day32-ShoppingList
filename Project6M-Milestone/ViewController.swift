@@ -17,6 +17,11 @@ class ViewController: UITableViewController {
         title = "Your shopping list"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addItem))
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Remove All", style: .done, target: self, action: #selector(removeList))
+
+        let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        let shareButton = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareList))
+        toolbarItems = [spacer, shareButton]
+        navigationController?.isToolbarHidden = false
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -33,7 +38,6 @@ class ViewController: UITableViewController {
         return cell
     }
 
-    
     @objc func addItem() {
         let ac = UIAlertController(title: "Enter an item", message: nil, preferredStyle: .alert)
         ac.addTextField()
@@ -56,5 +60,12 @@ class ViewController: UITableViewController {
         shoppingList.removeAll()
         tableView.reloadData()
     }
-}
 
+    @objc func shareList() {
+        let list = shoppingList.joined(separator: "\n")
+
+        let vc = UIActivityViewController(activityItems: [list], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
+    }
+}
