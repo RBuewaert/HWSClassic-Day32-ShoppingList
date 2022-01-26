@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		699D267B27032D0300005F93 /* Project6M-Milestone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project6M-Milestone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699D267B27032D0300005F93 /* HWSDay32ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSDay32ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699D267E27032D0300005F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		699D268027032D0300005F93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		699D268227032D0300005F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		699D267227032D0300005F93 = {
 			isa = PBXGroup;
 			children = (
-				699D267D27032D0300005F93 /* Project6M-Milestone */,
+				699D267D27032D0300005F93 /* HWSDay32ShoppingList */,
 				699D267C27032D0300005F93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		699D267C27032D0300005F93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				699D267B27032D0300005F93 /* Project6M-Milestone.app */,
+				699D267B27032D0300005F93 /* HWSDay32ShoppingList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		699D267D27032D0300005F93 /* Project6M-Milestone */ = {
+		699D267D27032D0300005F93 /* HWSDay32ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
 				699D267E27032D0300005F93 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				699D268927032D0400005F93 /* LaunchScreen.storyboard */,
 				699D268C27032D0400005F93 /* Info.plist */,
 			);
-			path = "Project6M-Milestone";
+			path = HWSDay32ShoppingList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		699D267A27032D0300005F93 /* Project6M-Milestone */ = {
+		699D267A27032D0300005F93 /* HWSDay32ShoppingList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 699D268F27032D0400005F93 /* Build configuration list for PBXNativeTarget "Project6M-Milestone" */;
+			buildConfigurationList = 699D268F27032D0400005F93 /* Build configuration list for PBXNativeTarget "HWSDay32ShoppingList" */;
 			buildPhases = (
 				699D267727032D0300005F93 /* Sources */,
 				699D267827032D0300005F93 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project6M-Milestone";
+			name = HWSDay32ShoppingList;
 			productName = "Project6M-Milestone";
-			productReference = 699D267B27032D0300005F93 /* Project6M-Milestone.app */;
+			productReference = 699D267B27032D0300005F93 /* HWSDay32ShoppingList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 699D267627032D0300005F93 /* Build configuration list for PBXProject "Project6M-Milestone" */;
+			buildConfigurationList = 699D267627032D0300005F93 /* Build configuration list for PBXProject "HWSDay32ShoppingList" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				699D267A27032D0300005F93 /* Project6M-Milestone */,
+				699D267A27032D0300005F93 /* HWSDay32ShoppingList */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96Q85JB8SS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Project6M-Milestone/Info.plist";
+				INFOPLIST_FILE = HWSDay32ShoppingList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96Q85JB8SS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Project6M-Milestone/Info.plist";
+				INFOPLIST_FILE = HWSDay32ShoppingList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		699D267627032D0300005F93 /* Build configuration list for PBXProject "Project6M-Milestone" */ = {
+		699D267627032D0300005F93 /* Build configuration list for PBXProject "HWSDay32ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699D268D27032D0400005F93 /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		699D268F27032D0400005F93 /* Build configuration list for PBXNativeTarget "Project6M-Milestone" */ = {
+		699D268F27032D0400005F93 /* Build configuration list for PBXNativeTarget "HWSDay32ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699D269027032D0400005F93 /* Debug */,
